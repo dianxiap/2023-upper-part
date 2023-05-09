@@ -1,0 +1,5 @@
+﻿  源.cpp
+E:\草稿箱\daily\Project8\Project8\源.cpp(30,4): error C2662: “void Date::print(void)”: 不能将“this”指针从“const Date”转换为“Date &”
+E:\草稿箱\daily\Project8\Project8\源.cpp(30,2): message : 转换丢失限定符
+E:\草稿箱\daily\Project8\Project8\源.cpp(15,7): message : 参见“Date::print”的声明
+E:\草稿箱\daily\Project8\Project8\源.cpp(30,4): message : 尝试匹配参数列表“()”时
