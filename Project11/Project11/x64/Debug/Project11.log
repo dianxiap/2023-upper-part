@@ -1,0 +1,13 @@
+﻿  Itemdatabase.c
+c1 : fatal  error C1083: 无法打开源文件: “C:\Users\wpp\Desktop\IO\Itemdatabase.c”: No such file or directory
+  Itemdatabase_Sort.c
+c1 : fatal  error C1083: 无法打开源文件: “C:\Users\wpp\Desktop\IO\Itemdatabase_Sort.c”: No such file or directory
+  Itemdatabase_fileIO.c
+c1 : fatal  error C1083: 无法打开源文件: “C:\Users\wpp\Desktop\IO\Itemdatabase_fileIO.c”: No such file or directory
+  MyIOLib.c
+c1 : fatal  error C1083: 无法打开源文件: “C:\Users\wpp\Desktop\IO\MyIOLib.c”: No such file or directory
+  MySort.c
+c1 : fatal  error C1083: 无法打开源文件: “C:\Users\wpp\Desktop\IO\MySort.c”: No such file or directory
+  main.c
+c1 : fatal  error C1083: 无法打开源文件: “C:\Users\wpp\Desktop\IO\main.c”: No such file or directory
+  正在生成代码...
