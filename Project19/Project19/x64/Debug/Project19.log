@@ -1,0 +1,3 @@
+﻿  ItemDatabase.c
+E:\草稿箱\daily\Project19\Project19\ItemDatabase.c(79,5): warning C4013: “memcpy”未定义；假设外部返回 int
+  Project19.vcxproj -> E:\草稿箱\daily\Project19\x64\Debug\Project19.exe
