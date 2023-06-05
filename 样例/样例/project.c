@@ -15,7 +15,7 @@ void initCou(Cou* pc)
     pc->size = -1;
     pc->cou->people = 0;
 
-    LordCou(pc);
+    //LordCou(pc);
 }
 void cou_operate(Stu* spc,Cou* cpc,Sel* lpc) {
     printf("\n-------------------------欢迎进入选课系统！----------------------");
@@ -67,6 +67,7 @@ void input_cou(Stu* spc, Cou* cpc, Sel* lpc) {
         cpc->size++;
         scanf("%s %s %s %s %s %s", &cpc->cou[cpc->size].course_ID, &cpc->cou[cpc->size].course_name, 
             &cpc->cou[cpc->size].property, &cpc->cou[cpc->size].period, &cpc->cou[cpc->size].credit, &cpc->cou[cpc->size].time);
+        cpc->cou[cpc->size].people = 0;
         //--数据查重
         int h;
         for (h = 0; h < cpc->size; h++) {
@@ -121,7 +122,7 @@ void search_cou_id(Stu* spc, Cou* cpc, Sel* lpc) {
     scanf("%s", id);
     int h;
     for (h = 0; h <= cpc->size; h++) {
-        if (strcmp(cpc->cou[cpc->size].course_ID, id) == 0) {
+        if (strcmp(cpc->cou[h].course_ID, id) == 0) {
             system("cls");
             printf("查找成功!");
             printf("\n\n\t代码\t名称\t性质\t总学时\t学分\t开课学期\t选修人数");
@@ -310,28 +311,31 @@ void delete_cou(Stu* spc, Cou* cpc, Sel* lpc) {
 }
 
 
-void LordCou(Cou* pc)
-{
-    FILE* pf = fopen("student.txt", "rb");
-    if (pf == NULL)
-    {
-        perror("LordStu fail");
-    }
-    else
-    {
-        cou temp;
-        int i = 0;
-        while (fread(&temp, sizeof(stu), 1, pf))
-        {
-            //check_capacity(pc);
-            pc->cou[i] = temp;
-            pc->size++;
-            i++;
-        }
-        fclose(pf);
-        pf = NULL;
-    }
-}
+
+//void LordCou(Cou* pc)
+//{
+//    FILE* pf = fopen("course.txt", "r+");
+//    if (pf == NULL)
+//    {
+//        perror("LordStu fail");
+//    }
+//    else
+//    {
+//        cou temp;
+//        int i = 0;
+//      
+//        while (fread(&temp, sizeof(cou), 1, pf))
+//        {
+//            //check_capacity(pc);
+//            pc->cou[i] = temp;
+//            pc->size++;
+//            i++;
+//        }
+//        fclose(pf);
+//        pf = NULL;
+//    }
+//}
+
 void renew_cou(Cou* pc) {
     FILE* fp;
     fp = fopen("course.txt", "w+");
@@ -354,3 +358,4 @@ void renew_cou(Cou* pc) {
     fclose(fp);
 
 }
+

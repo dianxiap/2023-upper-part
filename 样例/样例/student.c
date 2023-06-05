@@ -14,7 +14,7 @@ void init_stu(Stu *pc)
     pc->capacity = SIZE_STU;
     pc->size = -1;
 
-    LordStu(pc);
+    //LordStu(pc);
 }
 void stu_operate(Stu* spc, Cou* cpc, Sel* lpc) {
     printf("\n-------------------------欢迎进入选课系统！----------------------");
@@ -219,8 +219,8 @@ void edit_stu(Stu* spc, Cou* cpc, Sel* lpc) {
                 spc->st[spc->size].age, spc->st[spc->size].collage, spc->st[spc->size].grade, spc->st[spc->size].contact);
             printf("\n这是修改前的数据，请依次输入修改值：\n\t");
             fflush(stdin);
-            scanf("%s %s %s %s %s %s %s", &spc->st[spc->size].stu_ID, &spc->st[spc->size].stu_name, &spc->st[spc->size].sex,
-                &spc->st[spc->size].age, &spc->st[spc->size].collage, &spc->st[spc->size].grade, &spc->st[spc->size].contact);
+            scanf("%s %s %s %s %s %s %s", &spc->st[h].stu_ID, &spc->st[h].stu_name, &spc->st[h].sex,
+                &spc->st[h].age, &spc->st[h].collage, &spc->st[h].grade, &spc->st[h].contact);
             int k;
             for (k = 0; k <= spc->size; k++) {
                 if (strcmp(spc->st[k].stu_ID, spc->st[h].stu_ID) == 0) {
@@ -308,28 +308,28 @@ void delete_stu(Stu* spc, Cou* cpc, Sel* lpc)
     stu_operate(spc,cpc,lpc);
 }
 
-void LordStu(Stu* pc)
-{
-    FILE* pf = fopen("student.txt", "rb");
-    if (pf == NULL)
-    {
-        perror("LordStu fail");
-    }
-    else
-    {
-        stu temp;
-        int i = 0;
-        while (fread(&temp, sizeof(stu), 1, pf))
-        {
-            //check_capacity(pc);
-            pc->st[i] = temp;
-            pc->size++;
-            i++;
-        }
-        fclose(pf);
-        pf = NULL;
-    }
-}
+//void LordStu(Stu* pc)
+//{
+//    FILE* pf = fopen("student.txt", "rb");
+//    if (pf == NULL)
+//    {
+//        perror("LordStu fail");
+//    }
+//    else
+//    {
+//        stu temp;
+//        int i = 0;
+//        while (fread(&temp, sizeof(stu), 1, pf))
+//        {
+//            //check_capacity(pc);
+//            pc->st[i] = temp;
+//            pc->size++;
+//            i++;
+//        }
+//        fclose(pf);
+//        pf = NULL;
+//    }
+//}
 
 void renew_stu(Stu* pc) {
     FILE* fp;
