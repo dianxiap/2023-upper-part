@@ -1,0 +1,197 @@
+﻿  choice.c
+  database.c
+E:\草稿箱\daily\Project38\database.h(12,14): error C2143: 语法错误: 缺少“;”(在“=”的前面)
+E:\草稿箱\daily\Project38\database.h(12,14): error C2059: 语法错误:“=”
+E:\草稿箱\daily\Project38\database.h(13,1): error C2059: 语法错误:“}”
+E:\草稿箱\daily\Project38\internal.h(5,16): error C2079: “Student”使用未定义的 struct“student”
+E:\草稿箱\daily\Project38\database.c(9,21): error C2371: “course_database_head”: 重定义；不同的基类型
+E:\草稿箱\daily\Project38\internal.h(17,29): message : 参见“course_database_head”的声明
+E:\草稿箱\daily\Project38\database.c(10,21): error C2371: “course_database_tail”: 重定义；不同的基类型
+E:\草稿箱\daily\Project38\internal.h(18,29): message : 参见“course_database_tail”的声明
+E:\草稿箱\daily\Project38\database.c(47,24): error C2224: “.number”的左侧必须具有结构/联合类型
+E:\草稿箱\daily\Project38\database.c(56,34): warning C4133: “=”: 从“student_node *”到“course_node *”的类型不兼容
+E:\草稿箱\daily\Project38\database.c(81,66): error C2027: 使用了未定义类型“student”
+E:\草稿箱\daily\Project38\database.h(9,8): message : 参见“student”的声明
+E:\草稿箱\daily\Project38\database.c(107,48): warning C4133: “=”: 从“student_node *”到“course_node *”的类型不兼容
+E:\草稿箱\daily\Project38\database.c(108,48): warning C4133: “=”: 从“course_node *”到“student_node *”的类型不兼容
+E:\草稿箱\daily\Project38\database.c(113,42): warning C4133: “=”: 从“course_node *”到“student_node *”的类型不兼容
+E:\草稿箱\daily\Project38\database.c(117,38): warning C4133: “=”: 从“course_node *”到“student_node *”的类型不兼容
+E:\草稿箱\daily\Project38\database.c(153,40): warning C4133: “=”: 从“course_node *”到“student_node *”的类型不兼容
+E:\草稿箱\daily\Project38\database.c(158,40): warning C4133: “=”: 从“course_node *”到“student_node *”的类型不兼容
+E:\草稿箱\daily\Project38\database.c(183,5): warning C4013: “printf”未定义；假设外部返回 int
+E:\草稿箱\daily\Project38\database.c(187,23): error C2224: “.number”的左侧必须具有结构/联合类型
+E:\草稿箱\daily\Project38\database.c(190,33): warning C4133: “=”: 从“student_node *”到“course_node *”的类型不兼容
+E:\草稿箱\daily\Project38\database.c(195,23): error C2224: “.choice”的左侧必须具有结构/联合类型
+E:\草稿箱\daily\Project38\database.c(204,23): error C2224: “.number”的左侧必须具有结构/联合类型
+E:\草稿箱\daily\Project38\database.c(207,33): warning C4133: “=”: 从“student_node *”到“course_node *”的类型不兼容
+E:\草稿箱\daily\Project38\database.c(212,23): error C2224: “.choice”的左侧必须具有结构/联合类型
+E:\草稿箱\daily\Project38\database.c(227,37): warning C4133: “=”: 从“student_node *”到“course_node *”的类型不兼容
+  databasesort.c
+E:\草稿箱\daily\Project38\database.h(12,14): error C2143: 语法错误: 缺少“;”(在“=”的前面)
+E:\草稿箱\daily\Project38\database.h(12,14): error C2059: 语法错误:“=”
+E:\草稿箱\daily\Project38\database.h(13,1): error C2059: 语法错误:“}”
+E:\草稿箱\daily\Project38\internal.h(5,16): error C2079: “Student”使用未定义的 struct“student”
+E:\草稿箱\daily\Project38\databasesort.c(9,9): error C2037: “number”的左侧部分指定未定义的结构/联合“student”
+E:\草稿箱\daily\Project38\databasesort.c(9,26): error C2037: “number”的左侧部分指定未定义的结构/联合“student”
+E:\草稿箱\daily\Project38\databasesort.c(10,14): error C2037: “number”的左侧部分指定未定义的结构/联合“student”
+E:\草稿箱\daily\Project38\databasesort.c(10,32): error C2037: “number”的左侧部分指定未定义的结构/联合“student”
+E:\草稿箱\daily\Project38\databasesort.c(17,9): error C2037: “number”的左侧部分指定未定义的结构/联合“student”
+E:\草稿箱\daily\Project38\databasesort.c(17,26): error C2037: “number”的左侧部分指定未定义的结构/联合“student”
+E:\草稿箱\daily\Project38\databasesort.c(18,14): error C2037: “number”的左侧部分指定未定义的结构/联合“student”
+E:\草稿箱\daily\Project38\databasesort.c(18,32): error C2037: “number”的左侧部分指定未定义的结构/联合“student”
+E:\草稿箱\daily\Project38\databasesort.c(46,45): error C2233: “student_database”: 包含大小为零的数组的对象数组是非法的
+E:\草稿箱\daily\Project38\databasesort.c(46,20): error C2079: “student_database”使用未定义的 struct“student”
+E:\草稿箱\daily\Project38\databasesort.c(52,30): error C2109: 下标要求数组或指针类型
+E:\草稿箱\daily\Project38\databasesort.c(56,15): warning C4022: “QuickSort”: 指针与实参 1 不匹配
+E:\草稿箱\daily\Project38\databasesort.c(56,43): error C2065: “num_student”: 未声明的标识符
+E:\草稿箱\daily\Project38\databasesort.c(56,66): error C2027: 使用了未定义类型“student”
+E:\草稿箱\daily\Project38\database.h(9,8): message : 参见“student”的声明
+E:\草稿箱\daily\Project38\databasesort.c(62,44): error C2109: 下标要求数组或指针类型
+E:\草稿箱\daily\Project38\databasesort.c(86,40): error C2065: “num_items”: 未声明的标识符
+E:\草稿箱\daily\Project38\databasesort.c(87,30): warning C4133: “=”: 从“student_node *”到“course_node *”的类型不兼容
+E:\草稿箱\daily\Project38\databasesort.c(78,25): warning C4133: “初始化”: 从“student_node *”到“course_node *”的类型不兼容
+  file.c
+E:\草稿箱\daily\Project38\base.h(10,2): warning C4091: “typedef ”: 没有声明变量时忽略“student”的左侧
+E:\草稿箱\daily\Project38\base.h(16,2): warning C4091: “typedef ”: 没有声明变量时忽略“course”的左侧
+E:\草稿箱\daily\Project38\read.h(6,29): error C2143: 语法错误: 缺少“)”(在“常数”的前面)
+E:\草稿箱\daily\Project38\read.h(6,29): error C2143: 语法错误: 缺少“{”(在“常数”的前面)
+E:\草稿箱\daily\Project38\read.h(6,29): error C2059: 语法错误:“常数”
+E:\草稿箱\daily\Project38\read.h(6,41): error C2059: 语法错误:“)”
+E:\草稿箱\daily\Project38\read.h(7,47): error C2143: 语法错误: 缺少“)”(在“常数”的前面)
+E:\草稿箱\daily\Project38\read.h(7,47): error C2143: 语法错误: 缺少“{”(在“常数”的前面)
+E:\草稿箱\daily\Project38\read.h(7,47): error C2059: 语法错误:“常数”
+E:\草稿箱\daily\Project38\read.h(7,59): error C2059: 语法错误:“)”
+E:\草稿箱\daily\Project38\database.h(9,15): error C2011: “student”:“struct”类型重定义
+E:\草稿箱\daily\Project38\base.h(5,16): message : 参见“student”的声明
+E:\草稿箱\daily\Project38\database.h(14,14): error C2011: “course”:“struct”类型重定义
+E:\草稿箱\daily\Project38\base.h(11,16): message : 参见“course”的声明
+E:\草稿箱\daily\Project38\file.c(32,13): error C2065: “iter”: 未声明的标识符
+E:\草稿箱\daily\Project38\file.c(32,39): error C2440: “=”: 无法从“ItemIterator”转换为“int”
+E:\草稿箱\daily\Project38\file.c(32,50): error C2065: “iter”: 未声明的标识符
+E:\草稿箱\daily\Project38\file.c(32,50): error C2440: “函数”: 无法从“int”转换为“ItemIterator”
+E:\草稿箱\daily\Project38\file.c(32,46): warning C4024: “Valid”: 形参和实参 1 的类型不同
+E:\草稿箱\daily\Project38\file.c(33,13): error C2065: “iter”: 未声明的标识符
+E:\草稿箱\daily\Project38\file.c(33,41): error C2065: “iter”: 未声明的标识符
+E:\草稿箱\daily\Project38\file.c(33,41): error C2440: “函数”: 无法从“int”转换为“ItemIterator”
+E:\草稿箱\daily\Project38\file.c(33,37): warning C4024: “GetNextStudentIterator”: 形参和实参 1 的类型不同
+E:\草稿箱\daily\Project38\file.c(33,42): error C2440: “=”: 无法从“ItemIterator”转换为“int”
+E:\草稿箱\daily\Project38\file.c(44,50): error C2065: “studet_number_str”: 未声明的标识符
+E:\草稿箱\daily\Project38\file.c(44,52): error C2065: “p”: 未声明的标识符
+E:\草稿箱\daily\Project38\file.c(44,54): error C2223: “->number”的左侧必须指向结构/联合
+E:\草稿箱\daily\Project38\file.c(44,24): warning C4477: “fprintf”: 格式字符串“%s”需要类型“char *”的参数，但可变参数 1 拥有了类型“int”
+E:\草稿箱\daily\Project38\file.c(44,24): warning C4313: "fprintf": 格式字符串中的 "%s" 与类型为 "int" 的参数 1 冲突
+E:\草稿箱\daily\Project38\file.c(44,24): warning C4473: “fprintf”: 没有为格式字符串传递足够的参数
+E:\草稿箱\daily\Project38\file.c(44,24): message : 占位符和其参数预计 2 可变参数，但提供的却是 1 参数
+E:\草稿箱\daily\Project38\file.c(44,24): message : 缺失的可变参数 2 为格式字符串“%d”所需
+E:\草稿箱\daily\Project38\file.c(45,51): error C2065: “p”: 未声明的标识符
+E:\草稿箱\daily\Project38\file.c(45,53): error C2223: “->name”的左侧必须指向结构/联合
+E:\草稿箱\daily\Project38\file.c(45,24): warning C4473: “fprintf”: 没有为格式字符串传递足够的参数
+E:\草稿箱\daily\Project38\file.c(45,24): message : 占位符和其参数预计 2 可变参数，但提供的却是 1 参数
+E:\草稿箱\daily\Project38\file.c(45,24): message : 缺失的可变参数 2 为格式字符串“%s”所需
+E:\草稿箱\daily\Project38\file.c(46,37): error C2065: “num_course”: 未声明的标识符
+E:\草稿箱\daily\Project38\file.c(47,36): error C2065: “p”: 未声明的标识符
+E:\草稿箱\daily\Project38\file.c(47,38): error C2223: “->choice”的左侧必须指向结构/联合
+E:\草稿箱\daily\Project38\file.c(47,28): warning C4473: “fprintf”: 没有为格式字符串传递足够的参数
+E:\草稿箱\daily\Project38\file.c(47,28): message : 占位符和其参数预计 1 可变参数，但提供的却是 0 参数
+E:\草稿箱\daily\Project38\file.c(47,28): message : 缺失的可变参数 1 为格式字符串“%s”所需
+E:\草稿箱\daily\Project38\file.c(25,8): error C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+E:\草稿箱\daily\Project38\file.c(75,5): warning C4013: “ReadLineFromFile”未定义；假设外部返回 int
+E:\草稿箱\daily\Project38\file.c(117,73): error C2039: "number": 不是 "student" 的成员
+E:\草稿箱\daily\Project38\base.h(5,16): message : 参见“student”的声明
+E:\草稿箱\daily\Project38\file.c(117,54): warning C4473: “sscanf”: 没有为格式字符串传递足够的参数
+E:\草稿箱\daily\Project38\file.c(117,54): message : 占位符和其参数预计 1 可变参数，但提供的却是 0 参数
+E:\草稿箱\daily\Project38\file.c(117,54): message : 缺失的可变参数 1 为格式字符串“%d”所需
+E:\草稿箱\daily\Project38\file.c(71,10): error C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+E:\草稿箱\daily\Project38\file.c(104,17): error C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+E:\草稿箱\daily\Project38\file.c(110,17): error C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+E:\草稿箱\daily\Project38\file.c(117,17): error C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+E:\草稿箱\daily\Project38\file.c(122,17): error C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  main.c
+E:\草稿箱\daily\Project38\database.h(12,14): error C2143: 语法错误: 缺少“;”(在“=”的前面)
+E:\草稿箱\daily\Project38\database.h(12,14): error C2059: 语法错误:“=”
+E:\草稿箱\daily\Project38\database.h(13,1): error C2059: 语法错误:“}”
+E:\草稿箱\daily\Project38\base.h(6,5): error C2229: struct“student”有非法的大小为零的数组
+E:\草稿箱\daily\Project38\base.h(10,2): warning C4091: “typedef ”: 没有声明变量时忽略“student”的左侧
+E:\草稿箱\daily\Project38\base.h(11,22): error C2011: “course”:“struct”类型重定义
+E:\草稿箱\daily\Project38\database.h(14,8): message : 参见“course”的声明
+E:\草稿箱\daily\Project38\read.h(6,29): error C2143: 语法错误: 缺少“)”(在“常数”的前面)
+E:\草稿箱\daily\Project38\read.h(6,29): error C2143: 语法错误: 缺少“{”(在“常数”的前面)
+E:\草稿箱\daily\Project38\read.h(6,29): error C2059: 语法错误:“常数”
+E:\草稿箱\daily\Project38\read.h(6,41): error C2059: 语法错误:“)”
+E:\草稿箱\daily\Project38\read.h(7,47): error C2143: 语法错误: 缺少“)”(在“常数”的前面)
+E:\草稿箱\daily\Project38\read.h(7,47): error C2143: 语法错误: 缺少“{”(在“常数”的前面)
+E:\草稿箱\daily\Project38\read.h(7,47): error C2059: 语法错误:“常数”
+E:\草稿箱\daily\Project38\read.h(7,59): error C2059: 语法错误:“)”
+E:\草稿箱\daily\Project38\main.c(14,8): error C2083: struct 比较非法
+E:\草稿箱\daily\Project38\main.c(25,18): error C2440: “函数”: 无法从“student”转换为“const student *”
+E:\草稿箱\daily\Project38\main.c(25,17): warning C4024: “Add_student”: 形参和实参 1 的类型不同
+E:\草稿箱\daily\Project38\main.c(13,5): error C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+E:\草稿箱\daily\Project38\main.c(33,8): error C2083: struct 比较非法
+E:\草稿箱\daily\Project38\main.c(44,17): error C2440: “函数”: 无法从“course”转换为“const course *”
+E:\草稿箱\daily\Project38\main.c(44,16): warning C4024: “Add_course”: 形参和实参 1 的类型不同
+E:\草稿箱\daily\Project38\main.c(32,5): error C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+E:\草稿箱\daily\Project38\main.c(54,10): error C2065: “Iterator”: 未声明的标识符
+E:\草稿箱\daily\Project38\main.c(54,10): error C2146: 语法错误: 缺少“;”(在标识符“iter”的前面)
+E:\草稿箱\daily\Project38\main.c(54,15): error C2065: “iter”: 未声明的标识符
+E:\草稿箱\daily\Project38\main.c(54,32): error C2440: “=”: 无法从“ItemIterator”转换为“int”
+E:\草稿箱\daily\Project38\main.c(55,4): error C2088: “!”: 对于 struct 非法
+E:\草稿箱\daily\Project38\main.c(57,24): error C2065: “iter”: 未声明的标识符
+E:\草稿箱\daily\Project38\main.c(57,24): error C2440: “函数”: 无法从“int”转换为“ItemIterator”
+E:\草稿箱\daily\Project38\main.c(57,20): warning C4024: “Delete_student”: 形参和实参 1 的类型不同
+E:\草稿箱\daily\Project38\main.c(53,1): error C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+E:\草稿箱\daily\Project38\main.c(68,10): error C2065: “Iterator”: 未声明的标识符
+E:\草稿箱\daily\Project38\main.c(68,10): error C2146: 语法错误: 缺少“;”(在标识符“iter”的前面)
+E:\草稿箱\daily\Project38\main.c(68,15): error C2065: “iter”: 未声明的标识符
+E:\草稿箱\daily\Project38\main.c(68,31): error C2440: “=”: 无法从“ItemIterator”转换为“int”
+E:\草稿箱\daily\Project38\main.c(69,4): error C2088: “!”: 对于 struct 非法
+E:\草稿箱\daily\Project38\main.c(71,23): error C2065: “iter”: 未声明的标识符
+E:\草稿箱\daily\Project38\main.c(71,23): error C2440: “函数”: 无法从“int”转换为“ItemIterator”
+E:\草稿箱\daily\Project38\main.c(71,19): warning C4024: “Delete_course”: 形参和实参 1 的类型不同
+E:\草稿箱\daily\Project38\main.c(67,1): error C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+E:\草稿箱\daily\Project38\main.c(82,10): error C2065: “Iterator”: 未声明的标识符
+E:\草稿箱\daily\Project38\main.c(82,10): error C2146: 语法错误: 缺少“;”(在标识符“iter”的前面)
+E:\草稿箱\daily\Project38\main.c(82,15): error C2065: “iter”: 未声明的标识符
+E:\草稿箱\daily\Project38\main.c(82,32): error C2440: “=”: 无法从“ItemIterator”转换为“int”
+E:\草稿箱\daily\Project38\main.c(83,4): error C2088: “!”: 对于 struct 非法
+E:\草稿箱\daily\Project38\main.c(86,9): warning C4013: “Printf_student”未定义；假设外部返回 int
+E:\草稿箱\daily\Project38\main.c(81,1): error C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+E:\草稿箱\daily\Project38\main.c(96,10): error C2065: “Iterator”: 未声明的标识符
+E:\草稿箱\daily\Project38\main.c(96,10): error C2146: 语法错误: 缺少“;”(在标识符“iter”的前面)
+E:\草稿箱\daily\Project38\main.c(96,15): error C2065: “iter”: 未声明的标识符
+E:\草稿箱\daily\Project38\main.c(96,31): error C2440: “=”: 无法从“ItemIterator”转换为“int”
+E:\草稿箱\daily\Project38\main.c(97,4): error C2088: “!”: 对于 struct 非法
+E:\草稿箱\daily\Project38\main.c(100,9): warning C4013: “Printf_course”未定义；假设外部返回 int
+E:\草稿箱\daily\Project38\main.c(95,1): error C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+E:\草稿箱\daily\Project38\main.c(113,48): error C2296: “%”: 无效，因为左操作数的类型为“void”
+E:\草稿箱\daily\Project38\main.c(116,41): warning C4087: “rand”: 用“void”参数列表声明
+E:\草稿箱\daily\Project38\main.c(137,22): warning C4144: “!=”: 关系表达式用作 switch 表达式
+E:\草稿箱\daily\Project38\main.c(138,13): warning C4550: 表达式计算为缺少参数列表的函数
+E:\草稿箱\daily\Project38\main.c(144,24): error C2143: 语法错误: 缺少“)”(在“类型”的前面)
+E:\草稿箱\daily\Project38\main.c(144,13): error C2198: “choice”: 用于调用的参数太少
+E:\草稿箱\daily\Project38\main.c(144,56): error C2059: 语法错误:“)”
+E:\草稿箱\daily\Project38\main.c(145,26): error C2143: 语法错误: 缺少“)”(在“const”的前面)
+E:\草稿箱\daily\Project38\main.c(145,13): error C2198: “LoadFromFile”: 用于调用的参数太少
+E:\草稿箱\daily\Project38\main.c(145,47): error C2059: 语法错误:“)”
+E:\草稿箱\daily\Project38\main.c(146,24): error C2143: 语法错误: 缺少“)”(在“const”的前面)
+E:\草稿箱\daily\Project38\main.c(146,13): error C2198: “SaveToFile”: 用于调用的参数太少
+E:\草稿箱\daily\Project38\main.c(146,45): error C2059: 语法错误:“)”
+  read.c
+E:\草稿箱\daily\Project38\base.h(10,2): warning C4091: “typedef ”: 没有声明变量时忽略“student”的左侧
+E:\草稿箱\daily\Project38\base.h(16,2): warning C4091: “typedef ”: 没有声明变量时忽略“course”的左侧
+E:\草稿箱\daily\Project38\read.h(6,29): error C2143: 语法错误: 缺少“)”(在“常数”的前面)
+E:\草稿箱\daily\Project38\read.h(6,29): error C2143: 语法错误: 缺少“{”(在“常数”的前面)
+E:\草稿箱\daily\Project38\read.h(6,29): error C2059: 语法错误:“常数”
+E:\草稿箱\daily\Project38\read.h(6,41): error C2059: 语法错误:“)”
+E:\草稿箱\daily\Project38\read.h(7,47): error C2143: 语法错误: 缺少“)”(在“常数”的前面)
+E:\草稿箱\daily\Project38\read.h(7,47): error C2143: 语法错误: 缺少“{”(在“常数”的前面)
+E:\草稿箱\daily\Project38\read.h(7,47): error C2059: 语法错误:“常数”
+E:\草稿箱\daily\Project38\read.h(7,59): error C2059: 语法错误:“)”
+E:\草稿箱\daily\Project38\read.c(3,29): error C2143: 语法错误: 缺少“)”(在“常数”的前面)
+E:\草稿箱\daily\Project38\read.c(3,29): error C2143: 语法错误: 缺少“{”(在“常数”的前面)
+E:\草稿箱\daily\Project38\read.c(3,29): error C2059: 语法错误:“常数”
+E:\草稿箱\daily\Project38\read.c(3,41): error C2059: 语法错误:“)”
+E:\草稿箱\daily\Project38\read.c(12,47): error C2143: 语法错误: 缺少“)”(在“常数”的前面)
+E:\草稿箱\daily\Project38\read.c(12,47): error C2143: 语法错误: 缺少“{”(在“常数”的前面)
+E:\草稿箱\daily\Project38\read.c(12,47): error C2059: 语法错误:“常数”
+E:\草稿箱\daily\Project38\read.c(12,59): error C2059: 语法错误:“)”
+  正在生成代码...
