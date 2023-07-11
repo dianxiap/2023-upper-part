@@ -1,0 +1,6 @@
+﻿  源.cpp
+E:\草稿箱\daily\Project43\Project43\源.cpp(29,9): warning C4244: “初始化”: 从“LL”转换到“int”，可能丢失数据
+E:\草稿箱\daily\Project43\Project43\源.cpp(32,21): warning C4244: “=”: 从“LL”转换到“int”，可能丢失数据
+E:\草稿箱\daily\Project43\Project43\源.cpp(33,17): warning C4244: “=”: 从“LL”转换到“int”，可能丢失数据
+E:\草稿箱\daily\Project43\Project43\源.cpp(35,12): warning C4244: “=”: 从“LL”转换到“int”，可能丢失数据
+  Project43.vcxproj -> E:\草稿箱\daily\Project43\x64\Debug\Project43.exe
