@@ -1,0 +1,5 @@
+﻿  源.cpp
+E:\草稿箱\daily\Project49\Project49\源.cpp(2,4): error C2014: 预处理器命令必须作为第一个非空白空间启动
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\sal.h(2361,1): error C2144: 语法错误:“int”的前面应有“;”
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\sal.h(2361,8): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+E:\草稿箱\daily\Project49\Project49\源.cpp(46,3): error C2065: “cout”: 未声明的标识符
