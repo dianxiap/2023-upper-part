@@ -1,0 +1,5 @@
+﻿  源.cpp
+E:\草稿箱\daily\Project47\Project47\源.cpp(10,20): warning C4244: “初始化”: 从“double”转换到“__int64”，可能丢失数据
+E:\草稿箱\daily\Project47\Project47\源.cpp(41,19): warning C4018: “<”: 有符号/无符号不匹配
+E:\草稿箱\daily\Project47\Project47\源.cpp(45,19): warning C4018: “<”: 有符号/无符号不匹配
+  Project47.vcxproj -> E:\草稿箱\daily\Project47\x64\Debug\Project47.exe
