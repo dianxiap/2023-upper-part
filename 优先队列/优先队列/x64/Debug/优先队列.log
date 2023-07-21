@@ -1,0 +1,17 @@
+﻿  源.cpp
+E:\草稿箱\daily\优先队列\优先队列\源.cpp(92,1): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+E:\草稿箱\daily\优先队列\优先队列\源.cpp(90,1): message : 在编译 类 模板 成员函数“void dianxia::priority_queue<Date *,std::vector<Date *,std::allocator<Date *>>,LessPDate>::push(const T &)”时
+          with
+          [
+              T=Date *
+          ]
+E:\草稿箱\daily\优先队列\优先队列\源.cpp(188,9): message : 查看对正在编译的函数 模板 实例化“void dianxia::priority_queue<Date *,std::vector<Date *,std::allocator<Date *>>,LessPDate>::push(const T &)”的引用
+          with
+          [
+              T=Date *
+          ]
+E:\草稿箱\daily\优先队列\优先队列\源.cpp(187,59): message : 查看对正在编译的 类 模板 实例化“dianxia::priority_queue<Date *,std::vector<Date *,std::allocator<Date *>>,LessPDate>”的引用
+E:\草稿箱\daily\优先队列\优先队列\源.cpp(60,1): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+E:\草稿箱\daily\优先队列\优先队列\源.cpp(52,1): message : 在编译 类 模板 成员函数“void dianxia::priority_queue<Date *,std::vector<Date *,std::allocator<Date *>>,LessPDate>::AdjustUp(int)”时
+E:\草稿箱\daily\优先队列\优先队列\源.cpp(92,12): message : 查看对正在编译的函数 模板 实例化“void dianxia::priority_queue<Date *,std::vector<Date *,std::allocator<Date *>>,LessPDate>::AdjustUp(int)”的引用
+  优先队列.vcxproj -> E:\草稿箱\daily\优先队列\x64\Debug\优先队列.exe
