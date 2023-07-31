@@ -1,0 +1,33 @@
+﻿  源.cpp
+E:\草稿箱\daily\红黑树\红黑树\源.cpp(333,12): warning C4244: “参数”: 从“time_t”转换到“unsigned int”，可能丢失数据
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\utility(200,16): warning C4244: “初始化”: 从“_Ty”转换到“_Ty1”，可能丢失数据
+          with
+          [
+              _Ty=unsigned __int64
+          ]
+          and
+          [
+              _Ty1=int
+          ]
+E:\草稿箱\daily\红黑树\红黑树\源.cpp(339,27): message : 查看对正在编译的函数 模板 实例化“std::pair<K,V>::pair<unsigned __int64,unsigned __int64,0>(std::pair<unsigned __int64,unsigned __int64> &&) noexcept”的引用
+          with
+          [
+              K=int,
+              V=int
+          ]
+E:\草稿箱\daily\红黑树\红黑树\源.cpp(339,11): message : 查看对正在编译的函数 模板 实例化“std::pair<K,V>::pair<unsigned __int64,unsigned __int64,0>(std::pair<unsigned __int64,unsigned __int64> &&) noexcept”的引用
+          with
+          [
+              K=int,
+              V=int
+          ]
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\utility(200,61): warning C4244: “初始化”: 从“_Ty”转换到“_Ty2”，可能丢失数据
+          with
+          [
+              _Ty=unsigned __int64
+          ]
+          and
+          [
+              _Ty2=int
+          ]
+  红黑树.vcxproj -> E:\草稿箱\daily\红黑树\x64\Debug\红黑树.exe
